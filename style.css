@@ -1,0 +1,244 @@
+header,nav,main,article,section,footer,picture{display:block;}/* for Internet Explorer version 10 and below */
+	
+*{box-sizing:border-box;}
+
+.group:before,
+.group:after{content:"";display: table;	}
+			
+.group:after{clear:both;}
+			
+.group {*zoom: 1;}
+			
+html,body{margin:0;}
+
+body{font-family:Verdana, Arial, sans-serif;
+	background-image:url(flyfishing2.jpg);
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.wrapper {
+	display:block;
+	width:100%;
+	
+}
+.wrapper .content {
+	width:960px;
+	max-width:960px;
+	display:block;
+	text-align:center;
+}
+
+h1
+{
+	color:#003300;
+	font-size:200%;
+	font-family:'Annie Use Your Telescope';
+	text-align:center;
+}
+	
+h2
+{
+	color:#003300;
+	font-size:150%;
+	font-family:'Annie Use Your Telescope';
+	text-align:center;
+}
+
+h3
+{
+	color:#003300;
+	font-size:150%;
+	font-family:'Annie Use Your Telescope';
+	text-align:center;
+}
+p
+{
+	color:black;
+	padding-left:1em;
+	padding-right:1em;
+}	
+
+header
+{
+	color:#003300;
+	font-size:150%;
+	font-family:'Annie Use Your Telescope';
+	text-align:center;
+}
+
+nav 
+{
+	position:-webkit-sticky;
+	position:sticky;
+	top:0;
+	background:url(wood1.gif)no-repeat center center;
+	text-align:center;
+	padding:0.75em;
+	font-size:170%;	
+}
+	
+nav a
+{
+	text-decoration: none;
+	font-weight:bold;
+	font-family:'Annie Use Your Telescope';
+	font-size:150%;
+	padding-left:0.2em;
+	padding-right:0.2em;
+}
+
+
+main
+{
+	background-color: rgba(92, 214, 92, 0.4);
+    background-blend-mode: lighten;
+	position:static;
+	margin-top:2em;
+	padding-top:2em;
+	padding-bottom:0.7em;
+	color:#003300;
+	font-size:150%;
+}
+	
+main a
+{
+	padding-left:4em;
+	margin-bottom:0.5em;
+	padding-bottom: 0.5em;
+	padding-right:4em;
+	display:inline-block;
+}
+iframe
+{
+	margin:0.5em;
+	border-radius:0.8em;
+}
+main p
+{
+	font-weight:bold;
+	font-family:'Annie Use Your Telescope';
+	font-size:150%;
+}
+section
+{
+	border-bottom: thin dotted black;
+}
+	
+
+
+footer.content
+{
+	background-color: rgba(92, 214, 92, 0.4);
+    background-blend-mode: lighten;
+	position:static;
+	margin-top:2em;
+	padding-top:2em;
+	padding-bottom:2em;
+}
+
+
+
+
+div.footer
+{
+	text-align: center;
+	clear: both;
+	color:#4dff4d;
+	font-family:'Annie Use Your Telescope';
+	font-size:130%;
+	
+}
+div.footer a 
+{
+	color:white;
+}
+
+
+div.desc 
+{
+    padding: 1%;
+    text-align: center;
+	color:black;
+	font-family:'Annie Use Your Telescope';
+	font-size:130%;
+	font-weight:bold;
+}
+
+div.gallery {
+    margin:1em;
+   border-bottom:thin dotted black;
+}
+
+form
+{
+	display:inline-block;
+}
+
+img
+{
+	box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+	border-radius:0.8em;
+}
+
+
+#map 
+{
+	display:inline-block;
+	border-radius:0.8em;
+}
+
+.fa 
+{
+  padding: 20px;
+  font-size: 30px;
+  width: 70px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  
+}
+
+.fa:hover 
+{
+    opacity: 0.7;
+}
+
+.fa-facebook 
+{
+  background: #003300;
+  color: white;
+}
+
+.fa-twitter
+{
+  background: #003300;
+  color: white;
+}
+
+.fa-instagram
+{
+  background: #003300;
+  color: white;
+}
+
+.fa-youtube
+{
+  background: #003300;
+  color: white;
+}
+
+
+
+nav a:link{color:#006600;}
+nav a:visited{color:#003300;}
+nav a:hover{color:#4dff4d;}
+
+@media only screen and (max-width:600px){
+main{width:auto;}
+h1,h2,h3{font-size:120%;}
+p{font-size:90%;}
+aside{display:none;}/*hide the aside*/
+figure{display:none;}/*hide the figure image*/
+}

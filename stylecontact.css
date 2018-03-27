@@ -1,0 +1,94 @@
+
+
+
+form.contact
+{
+	margin-top:4em;
+	margin-bottom:4em;
+	display:inline-block;
+	text-align:left;
+	padding:0px;
+}
+
+form.contact label+input
+{
+	display:inline-block;
+	vertical-align:bottom;	
+}
+
+legend
+{
+	font-family:'Annie Use Your Telescope';
+	font-size:150%;
+	font-weight:bold;
+}
+
+fieldset
+{
+	border: none;
+}
+
+
+div
+{
+	margin-bottom:0.5em;
+}		
+
+figcaption
+{
+	color:black;
+	font-family:'Annie Use Your Telescope';
+	font-size:150%;
+}
+
+form.contact label 
+{
+	font:default;	 
+	font-weight:bold;
+	font-size:small;
+	color:#003300;
+	width:150px;
+	display:inline-block;
+	text-align:right;
+ 
+}
+ 
+ FORM.contact label+div 
+{
+	display:inline-block;
+}
+ 
+
+ 
+ FORM.contact INPUT+SPAN
+{
+	font:default;	 
+	font-weight:bold;
+	font-size:small;
+	color:#003300;
+	display:inline-block;
+} 
+ 
+ FORM.contact INPUT[type='radio'] 
+{
+	 display:inline-block;
+} 
+ 
+ form.contact .buttonarea input
+{
+	 background: #003300;
+	 color:yellow;
+	 font-weight:bold;
+	 padding: 5px;
+	 border: 1px #003300;
+}
+ 
+ form.contact .buttonarea
+{
+	text-align: left;
+	padding-left: 27%;
+	background-color: none;
+	margin-top:1em;
+}
+
+

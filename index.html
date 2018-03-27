@@ -1,1 +1,91 @@
-hello World
+<!DOCTYPE html>
+
+<html lang="en">
+<!-- this is the start of the head section-->
+<head>
+
+	<title>Fly Fishing</title>
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+	<link href='https://fonts.googleapis.com/css?family=Annie Use Your Telescope' rel='stylesheet'>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="style.css" rel="stylesheet">
+	
+</head>
+<!-- this is the end of the head section-->
+
+<!-- this is the start of the body section-->
+
+<body>
+
+	<div class="wrapper group" align="center">
+	
+	
+	<header class="content">
+	<h1>Flyfishing Addiction</h1>
+	
+		<a href="flies.html"><img src="logo.png" /> </a>
+		
+	</header>
+	
+	<nav class="content">
+		<a href="index.html">Home</a>
+		<a href="media.html">Media</a>
+		<a href="news.html">News</a>
+		<a href="aboutus.html">AboutUs</a>
+		<a href="contact.html">Contact</a>
+		<a href="flies.html">Flies</a>
+	</nav>
+	
+	<main class="content">
+	
+		<h2>Fly Fishing is amazing Hobby</h2>
+		<img src="aboutus/fly.jpg" alt="fly" width="800" height="600">
+		<h2>If you are wondering what to do in your DAY OFF try Fly fishing!!!<br>You may like it!</h2>
+		
+		<h2>You can often find me on Clane's DTAA stretch of river Liffey<br>
+			Especially late summer's afternoons when weather is nice !</h2>
+		
+		<div id="map" style="width:800px;height:260px;background:#4dff4d"></div>
+		
+		
+	</main>
+	
+	<footer class="content">
+		<a href="https://www.facebook.com/batyo23/media_set?set=a.653660694674174.1073741827.100000907478629&type=3" target="_blank" class="fa fa-facebook"></a>
+		<a href="https://twitter.com" target="_blank" class="fa fa-twitter"></a>
+		<a href="https://www.instagram.com" target="_blank" class="fa fa-instagram"></a>
+		<a href="https://www.youtube.com/channel/UCk2DJldSE7hhQTU8rjNHeYw" target="_blank" class="fa fa-youtube"></a>
+		
+		
+	</footer>
+
+	</div>
+	
+	<div class="footer">
+	Copyright&copy; 2018 <a href="#top">Back to Top</a>
+	</div>
+	
+	<script>
+      function initMap() {
+        var uluru = {lat: 53.294371, lng: -6.665189};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 14,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+		<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAFhIAWZS3Uc8Ecb3G-mTDl0RvQFg9VT0s&callback=initMap">
+    </script>
+	
+</body>
+<!-- this is the end of the body section-->
+
+</html>
